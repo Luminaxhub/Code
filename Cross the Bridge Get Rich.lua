@@ -65,7 +65,7 @@ checkKeyButton.MouseButton1Click:Connect(function()
 		wait(1)
 		keySystem.UI:Destroy()
 		-- EXECUTE MAIN SCRIPT
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Luminaxhub/Games/refs/heads/main/Win%20Obby%20Wind.lua"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Luminaxhub/Games/refs/heads/main/Crossing%20the%20Bridge%20to%20Get%20Rich.lua"))()
 	else
 		checkKeyButton.Text = "❌ Invalid Key!"
 		checkKeyButton.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
